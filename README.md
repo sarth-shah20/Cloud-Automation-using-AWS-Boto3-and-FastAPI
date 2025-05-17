@@ -102,7 +102,7 @@ You'll be prompted to enter:
         --role-name EC2SSMRole \
         --policy-arn arn:aws:iam::aws:policy/AmazonSSMManagedInstanceCore
         ```
-        #### Step 3: 
+        #### Step 3: Create Instance Profile
         ```sh
         aws iam create-instance-profile --instance-profile-name MyEC2SSMInstanceProfile
 

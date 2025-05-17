@@ -119,7 +119,7 @@ You'll be prompted to enter:
         - Prints a confirmation message once the termination is successful.
 ---
 ## Executing the script
-**In order to execute the [main.py](./main.py) file locally, we use `uvicorn`**
+**In order to execute the API call locally, we use `uvicorn`**
 ```sh
 uvicorn main:app --reload
 ```

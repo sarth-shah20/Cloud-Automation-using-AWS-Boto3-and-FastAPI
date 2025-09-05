@@ -9,17 +9,6 @@ REGION = "us-east-1"
 
 ec2 = boto3.resource('ec2', region_name=REGION)
 
-def launch_instance():import boto3
-import time
-
-AMI_ID = "ami-0c02fb55956c7d316" 
-INSTANCE_TYPE = "t2.micro"
-KEY_NAME = "trial-ami" 
-SECURITY_GROUP_ID = "sg-060096e65b968392b"  
-REGION = "us-east-1"
-
-ec2 = boto3.resource('ec2', region_name=REGION)
-
 def launch_instance():
     instance = ec2.create_instances(
         ImageId=AMI_ID,

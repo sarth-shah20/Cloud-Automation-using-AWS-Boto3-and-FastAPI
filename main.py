@@ -18,5 +18,6 @@ def run_script():
     terminate_instance(instance_id)
     return {
         "instance_id": instance_id,
+        "dns": dns,
         "output": output
     }
